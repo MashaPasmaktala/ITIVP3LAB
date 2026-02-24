@@ -1,0 +1,92 @@
+# Design Tokens - Academy Online Course Platform
+# Извлечены из Figma макета
+
+## ЦВЕТОВАЯ ПАЛИТРА
+
+### Основные цвета
+- Primary: #9E5CF2 (фиолетовый)
+- Primary 10: rgba(158, 92, 242, 0.1)
+- Primary 5: rgba(158, 92, 242, 0.05)
+- Secondary: #FF991F (оранжевый)
+- Secondary 5: rgba(255, 153, 31, 0.05)
+
+### Нейтральные цвета
+- White: #FFFFFF
+- White 50: rgba(255, 255, 255, 0.5)
+- Gray: #FAFAFA (фон)
+- Dark: #080808
+- Dark 75: rgba(8, 8, 8, 0.75)
+- Dark 50: rgba(8, 8, 8, 0.5)
+- Dark 25: rgba(8, 8, 8, 0.25)
+- Black: #3E3232
+- Black 75: rgba(62, 50, 50, 0.75)
+- Black 50: rgba(62, 50, 50, 0.5)
+- Black 10: rgba(62, 50, 50, 0.1)
+- Stroke: #F1F1F1
+
+### Акцентные цвета
+- Blue: #5A69F2
+- Light Blue: #F6F7FE
+- Green: #009E68
+- Light Green: #EBFAF5
+- Red: #FF3C31
+- Light Red: #FFF5F5
+
+## ТИПОГРАФИКА
+
+### Шрифты
+- Основной шрифт: Roboto
+- Логотип: Rubik Black
+
+### Стили текста
+- H1: Roboto, 64px, weight 700 (предполагаемый)
+- H2: Roboto, 48px, weight 600 (предполагаемый)
+- H3: Roboto, 32px, weight 600 (предполагаемый)
+- H4: Roboto SemiBold, 20px, weight 600, line-height 100%
+- H5: Roboto Medium, 16px, weight 500, line-height 100%
+- H6: Roboto Medium, 13px, weight 500, line-height 100%
+- Paragraph: Roboto Regular, 14px, weight 400, line-height 20px, letter-spacing 0.25px
+- Button: Roboto Medium, 14px, weight 500, line-height 20px
+- Input text: Roboto Regular, 12px, weight 400, line-height 100%
+
+## ОТСТУПЫ И РАЗМЕРЫ
+
+### Скругления (border-radius)
+- Карточки: 12px
+- Кнопки: 10px
+- Большие секции: 40px
+- Аватары: 50% (круглые)
+
+### Отступы контейнера
+- Боковые отступы на десктопе: 204px
+- Максимальная ширина контента: 1512px
+
+### Тени
+- Используются минималистичные тени через прозрачность
+
+## ИКОНКИ
+- Font Awesome 6 Free (Regular и Solid)
+- Размеры: 14px, 16px, 20px, 24px
+
+## КОМПОНЕНТЫ
+
+### Кнопки
+- Primary: bg #080808, text white, padding 10px 24px
+- Secondary: bg transparent, border #9E5CF2
+- Hover: bg #9E5CF2
+
+### Карточки курсов
+- Фон: #FAFAFA
+- Граница: 1px solid #F1F1F1
+- Скругление: 12px
+- Padding: 10px
+
+### Поле поиска
+- Фон: #FAFAFA
+- Скругление: 12px
+- Высота: 64px
+
+## БРЕЙКПОИНТЫ (предполагаемые)
+- Desktop: 1920px
+- Tablet: 768px
+- Mobile: 375px
