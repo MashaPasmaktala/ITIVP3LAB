@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Rubik:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+    <link rel="stylesheet" href="assets/css/styles.css"> 
 </head>
 <body itemscope itemtype="https://schema.org/EducationalOrganization">
     <a href="#main" class="skip-link">Перейти к основному содержимому</a>
@@ -25,6 +25,17 @@
                     <span class="logo__text" itemprop="name">Academy</span>
                 </a>
             </div>
+
+            <!-- Бургер-меню для мобильных устройств -->
+            <input type="checkbox" id="burger-toggle" class="burger__checkbox" aria-hidden="true">
+            <label for="burger-toggle" class="burger" aria-label="Открыть меню">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </label>
+
+            <!-- Затемнение фона при открытом меню -->
+            <label for="burger-toggle" class="header__overlay" aria-hidden="true"></label>
 
             <nav class="header__nav main-nav" aria-label="Основная навигация">
                 <ul class="main-nav__list">

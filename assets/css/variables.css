@@ -1,0 +1,14 @@
+/* CSS-переменные */
+:root {
+    --color-primary: #9E5CF2;
+    --color-secondary: #FF991F;
+    --color-white: #FFFFFF;
+    --color-gray: #FAFAFA;
+    --color-dark: #080808;
+    --color-dark-50: rgba(8, 8, 8, 0.5);
+    
+    --font-primary: 'Roboto', sans-serif;
+    --font-logo: 'Rubik', sans-serif;
+    
+    --radius: 12px;
+}
